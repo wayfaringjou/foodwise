@@ -1,0 +1,7 @@
+{
+    "{src,apps,libs,test}/**/*.ts": [
+        "jest",
+        "eslint --cache",
+        "prettier --cache --cache-location=.prettier-cache --write"
+    ]
+}
